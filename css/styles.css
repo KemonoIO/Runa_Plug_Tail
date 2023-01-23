@@ -72,3 +72,11 @@ th {
 tr:nth-child(2n) {
     background: #999;
 }
+
+.metrics--property {
+    width: 7em;
+}
+
+.metrics table {
+    min-width: 50%;
+}
