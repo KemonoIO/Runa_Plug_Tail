@@ -2,60 +2,41 @@
 <html lang="en-US">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="initial-scale=1, user-scalable=no, width=device-width">
         <link href="css/styles.css" rel="stylesheet">
         <title>Runa Plug Tail</title>
     </head>
     <body>
         <h1>Runa Plug Tail</h1>
-        <section class="summary">
+        <section id="summary">
             <h2>Summary</h2>
-            <P>This package is a XLR-esque plug tail addon for the Runa model by Torinyan.</p>
+            <p>This package is a XLR-esque plug tail addon for the Runa model by Torinyan.</p>
         </section>
-        <section class="metrics">
+        <section id="metrics">
             <h2>Metrics</h2>
-            <table>
-                <thead>
-                    <tr>
-                        <th class="metrics--property">Property</th>
-                        <th>Value</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Triangles</td>
-                        <td>3356</td>
-                    </tr>
-                    <tr>
-                        <td>Materials</td>
-                        <td>1</td>
-                    </tr>
-                    <tr>
-                        <td>VRAM</td>
-                        <td>~2.20 MB</td>
-                    </tr>
-                </tbody>
-            </table>
+            <div class="grid">
+                <div>Property</div>
+                <div>Value</div>
+                <div>Polygons</div>
+                <div>3,356</div>
+                <div>Materials</div>
+                <div>1</div>
+                <div>VRAM</div>
+                <div>~2.20 MB</div>
+            </div>
         </section>
-        <section class="version-history">
+        <section id="version-history">
             <h2>Version History</h2>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Version</th>
-                        <th>Date</th>
-                        <th>Changes</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td>2023-01-23</td>
-                        <td>Initial version.</td>
-                    </tr>
-                </tbody>
-            </table>
+            <div class="grid">
+                <div>Version</div>
+                <div>Date</div>
+                <div>Changes</div>
+                <div>1</div>
+                <div>2023-01-23</div>
+                <div>Initial version.</div>
+            </div>
         </section>
-        <section class="dependencies">
+        <section id="dependencies">
             <h2>Dependencies</h2>
             <h3>Required</h3>
             <ul>
@@ -70,34 +51,42 @@
         <section class="installation">
             <h2>Installation</h2>
             <ol>
-                <li>Unpack the dependencies, in order.</li>
-                <ol>
-                    <li>Only unpack Poiyomi Toon if you intend to alter the tail material.</li>
-                </ol>
+                <li>
+                    Unpack the dependencies, in order.
+                    <ol>
+                        <li>Only unpack Poiyomi Toon if you intend to alter the tail material.</li>
+                    </ol>
+                </li>
                 <li>Drag Assets/Kemono_Io/Runa_Plug_Tail.prefab into the Runa_Source object.<img alt="Instructions 00" height="86" src="images/instructions_00.png" width="507"></li>
-                <li>Constrain the Runa_Plug_Tail object to the hips.</li>
-                <ol>
-                    <li>Select the Runa_Plug_Tail object in the Hierarchy panel.<img alt="Instructions 01 00" height="164" src="images/instructions_01_00.png" width="490"></li>
-                    <li>Drag the hips bone into the Parent Constraint's Source in the Inspector panel.<img alt="Instructions 01 01" height="164" src="images/instructions_01_01.png" width="490"><img alt="Instructions 01 02" height="180" src="images/instructions_01_02.png" width="442"></li>
-                    <li>Click the &quot;Activate&quot; button.<img alt="Instructions 01 03" height="180" src="images/instructions_01_03.png" width="442"></li>
-                </ol>
-                <li>Set the Runa_Plug_Tail's anchor override.</li>
-                <ol>
-                    <li>Select the Runa_Plug_Tail mesh in the Hierarchy panel.<img alt="Instructions 02 00" height="147" src="images/instructions_02_00.png" width="482"></li>
-                    <li>Drag the hips bone into the Anchor Override in the Inspector panel.<img alt="Instructions 02 01" height="147" src="images/instructions_02_01.png" width="482"><img alt="Instructions 02 02" height="333" src="images/instructions_02_02.png" width="431"></li>
-                </ol>
+                <li>
+                    Constrain the Runa_Plug_Tail object to the hips.
+                    <ol>
+                        <li>Select the Runa_Plug_Tail object in the Hierarchy panel.<img alt="Instructions 01 00" height="164" src="images/instructions_01_00.png" width="490"></li>
+                        <li>Drag the hips bone into the Parent Constraint's Source in the Inspector panel.<img alt="Instructions 01 01" height="164" src="images/instructions_01_01.png" width="490"><img alt="Instructions 01 02" height="180" src="images/instructions_01_02.png" width="442"></li>
+                        <li>Click the "Activate" button.<img alt="Instructions 01 03" height="180" src="images/instructions_01_03.png" width="442"></li>
+                    </ol>
+                </li>
+                <li>
+                    Set the Runa_Plug_Tail's anchor override.
+                    <ol>
+                        <li>Select the Runa_Plug_Tail mesh in the Hierarchy panel.<img alt="Instructions 02 00" height="147" src="images/instructions_02_00.png" width="482"></li>
+                        <li>Drag the hips bone into the Anchor Override in the Inspector panel.<img alt="Instructions 02 01" height="147" src="images/instructions_02_01.png" width="482"><img alt="Instructions 02 02" height="333" src="images/instructions_02_02.png" width="431"></li>
+                    </ol>
+                </li>
             </ol>
         </section>
         <section class="terms">
             <h2>Terms</h2>
             <ol>
-                <li>Assets are provided on an &quot;as is&quot; basis and the author is not responsible for damages caused through their use.</li>
-                <li>All authoring rights belong to the author.</li>
-                <ol>
-                    <li>Buyers may not sell any of the assets in original or modified state.</li>
-                    <li>Buyers may not redistribute any asset.</li>
-                    <li>Buyers may not provide a publically-available version of any asset, including derivative works.</li>
-                </ol>
+                <li>Assets are provided on an "as is" basis and the author is not responsible for damages caused through their use.</li>
+                <li>
+                    All authoring rights belong to the author.
+                    <ol>
+                        <li>Buyers may not sell any of the assets in original or modified state.</li>
+                        <li>Buyers may not redistribute any asset.</li>
+                        <li>Buyers may not provide a publically-available version of any asset, including derivative works.</li>
+                    </ol>
+                </li>
                 <li>Personal and commercial use is permitted.</li>
                 <li>Authoring rights on derivative works belong to the author and have the same terms.</li>
                 <li>Buyers are responsible for any terms of usage violations.</li>
